@@ -49,6 +49,7 @@ body {
 .apresentacao_imagem img {
     width: 100%;
     padding-left: 7rem;
+    transition: .2s ease-in-out;
 }
 .apresentacao_conteudo {
     display: flex;
@@ -151,4 +152,8 @@ body {
     .apresentacao_conteudo {
         width: auto;
     }
+}
+.apresentacao_imagem img:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
 }
