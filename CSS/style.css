@@ -152,6 +152,9 @@ body {
     .apresentacao_conteudo {
         width: auto;
     }
+    .apresentacao_imagem img {
+        padding-left: 0rem;
+    }
 }
 .apresentacao_imagem img:hover {
     transform: scale(1.1);
