@@ -160,3 +160,10 @@ body {
     transform: scale(1.1);
     transition: .2s ease-in-out;
 }
+.titulo_sobre {
+    color: var(--CorSecundaria);
+    display: flex;
+    justify-content: center;
+    font-family: var(--FontePrimaria);
+    font-size: 2rem;
+}
