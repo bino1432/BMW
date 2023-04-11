@@ -46,13 +46,14 @@ body {
     gap: 5rem;
     padding: 5% 15%;
 }
-#apresentacao_imagem img {
-    width: 300px;
+.apresentacao_imagem img {
+    width: 100%;
+    padding-left: 7rem;
 }
 .apresentacao_conteudo {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
     gap: 3rem;
     color: var(--CorSecundaria);
 }
@@ -82,12 +83,72 @@ body {
 .botao_link_github {
     color: var(--CorSecundaria);
     text-decoration: none;
+    border: 2px solid var(--CorSecundaria);
+    border-radius: 6px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: var(--FontePrimaria);
+    font-size: 1.2rem;
+    text-align: center;
+    gap: 0.4rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 .botao_link_linkedin {
     color: var(--CorSecundaria);
     text-decoration: none;
+    border: 2px solid var(--CorSecundaria);
+    border-radius: 6px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: var(--FontePrimaria);
+    font-size: 1.2rem;
+    text-align: center;
+    width: 50%;
+    gap: 0.4rem;
+    display: flex;
+    justify-content: center;
 }
 .botao_link_instagram {
     color: var(--CorSecundaria);
     text-decoration: none;
+    border: 2px solid var(--CorSecundaria);
+    border-radius: 6px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: var(--FontePrimaria);
+    font-size: 1.2rem;
+    text-align: center;
+    width: 50%;
+    gap: 0.4rem;
+    display: flex;
+    justify-content: center;
+}
+.fa-brands {
+    color: var(--CorSecundaria);
+    margin-top: 6px;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+    color: var(--CorSecundaria);
+    background-color: var(--CorTerciaria);
+    padding: 1rem;
+    font-family: var(--FontSecundaria);
+    font-size: 1rem;
+}
+@media (max-width: 768px){
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+    .apresentacao_conteudo {
+        width: auto;
+    }
 }
